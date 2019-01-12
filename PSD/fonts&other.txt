@@ -1,0 +1,5 @@
+FONT:
+https://www.fontsquirrel.com/fonts/montserrat
+
+FLAGS:
+https://www.flaticon.com/packs/countrys-flags

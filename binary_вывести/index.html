@@ -1,0 +1,80 @@
+<head>
+        <meta charset="utf-8" http-equiv="X-UA-Compatible" name="index">
+        <title>Binany</title>
+        <link rel="stylesheet" href="css/style.css">
+        <script src="js/script.js" type="text/javascript" charset="utf-8" defer></script>
+</head>
+<body>
+	<header>
+		<div class="header_left">
+			<img src="img/Menu.png" alt="menu">
+			<img src="img/Menu_border.png" alt="menu_border">
+			<img src="img/binany_logo.png" alt="binany">
+		</div>
+		<div class="header_right">
+			<div class="drop_menu">
+				<img src="img/Menu_border.png" alt="menu_border">
+				<p>Учебный счёт<br><span>$20 000.00</span></p>
+				<img src="img/down.png" alt="down_drop">
+			</div>
+			<img src="img/Menu_border.png" alt="menu_border">
+			<a id='replenish' href="#"><span>Пополнить счет</span></a>
+		</div>
+	</header>
+	<main>
+		<nav>
+			<div class="nav_left">
+				<p>Пополнить</p>
+				<p>Вывести</p>
+				<p>Операции</p>
+				<p>Сделки</p>
+				<p>Профиль</p>
+				<p>Котировки</p>
+			</div>
+			<div class="nav_right">
+				<p>Счет №: 31998640USD</p>
+			</div>
+		</nav>
+		<div class="main_container">
+			<div class="main_content">
+				<div class="conclusion_content">
+					<p id="conclusion">Заявка на вывод средств</p>
+					<div class="conclusion_line_1">
+						<div>
+							<p>Всего</p>
+							<span>$25,000</span>
+						</div>
+						<div>
+							<p>Доступные средства</p>
+							<span>$25,000</span>
+						</div>
+						<div>
+							<p>Бонусы</p>
+							<span>$1,000</span>
+						</div>
+					</div>
+					<form action="post" class="conclusion_line_2">
+						<div id="drop_menu_currency">
+							<p>Валюта</p>
+							<p id="usd">$ USD <img src="img/down_currency.png" id='currency_img' alt="down_drop"></p>
+							<ul id="currency_drop_menu">
+								<li>¥ CNY</li>
+								<li>€ EUR</li>
+								<li>₽ RUB</li>
+								<li>$ USD</li>
+								<li>£ GBP</li>
+							</ul>
+						</div>
+						<div>
+							<p>Сумма</p>
+							<p>$   <input type="text" placeholder="100"></p>
+						</div>
+						<input type="submit" value="Отправить заявку">
+					</form>
+					<p class="end_text">Минимальная сумм а вывода 10,00 s. Деньги спишутся со счета в момент выплаты заявки.</p>
+					<p class="end_text">Вывод средств осуществляется теми же платежными методами, с которых вы вводили деньги в систему.</p>
+				</div>
+			</div>
+		</div>
+</body>
+</html>
